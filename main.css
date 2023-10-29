@@ -1,0 +1,473 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1920px;
+    height: 1018px;
+    margin: 0 auto;
+}
+
+.main-page-wrapper {
+    background: url("img/fon1.jfif") center top no-repeat, url("img/fon2.jfif") center bottom no-repeat;
+}
+
+.wrapper {
+    position: relative;
+    background: #17191C;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.42;    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.header {
+    position: relative;
+    height: 80px;
+    margin-left: 390px;
+    margin-right: 389px;
+    margin-bottom: 132px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    font-size: 36px;
+    font-weight: 700;
+    }
+
+.logo__link {
+    background: linear-gradient(88deg, #8F00FF -2.44%, #00A3FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38px;
+    font-size: 16px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #4b64e2;
+}
+
+.contacts {
+    position: absolute;
+    top: 28.64px;
+    right: 0;
+    font-style: normal;
+}
+
+.contacts__tel {
+    display: block;
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: -9px;
+}
+
+.contacts__graf{
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.preview {
+    position: relative;
+    display: block;
+    height: 273px;
+    width: 637px;
+    margin-right: 893px;
+    margin-left: 392px;
+    margin-bottom: 288px;
+}
+
+.preview__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    margin-bottom: 22px;
+}
+
+.preview__info {
+    font-size: 21px;
+    margin-bottom: 73px;
+}
+
+.button {
+    border-radius: 5px;
+    background: #8F00FF;
+    color: #FFF;
+    font-family: Open Sans, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    min-width: 168px;
+    min-height: 55px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background: #f4f0f7;
+    color: #8F00FF;
+}
+
+.new-in-the-week {
+    margin-left: 391px;
+    margin-right: 390px;
+    margin-bottom: 126px;
+}
+
+.new-in-the-week__title {
+    display: inline-block;
+    margin-bottom: 51px;
+
+}
+
+.new-in-the-week__title-text {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.new-in-the-week__title-icon {
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    visibility: hidden;
+}
+
+.new-in-the-week__list {
+    display: inline-block;
+}
+
+.new-in-the-week__item {
+    display: inline-block;
+    width: 358px;
+    border-radius: 0px 0px 5px 5px;
+    background: #FFF;
+    margin-right: 27px;
+}
+
+.new-in-the-week__item:last-child {
+    margin-right: 0;
+}
+
+.new-in-the-week__image {
+    width: 362px;
+    height: 144px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 26px;
+}
+
+.new-in-the-week__content {
+    margin-left: 21px;
+}
+
+.new-in-the-week__subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.new-in-the-week__options {
+    margin-bottom: 19.5px;
+}
+
+.new-in-the-week__options-item{
+    display: inline-block;
+    margin-right: 52px;
+    margin-bottom: 23,5px;
+}
+
+.new-in-the-week__options-item:last-child {
+    margin-right: 0;
+}
+
+.new-in-the-week__options-icon {
+    color: #797979;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.new-in-the-week__options-text{ 
+    color: #666;
+    visibility: hidden;;
+}
+
+.new-in-the-week__text {
+    color: #303030;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 23.5px;
+}
+
+.button--border {
+    background: #fff;
+    color: #8F00FF;
+    border-radius: 5px;
+    border: 1px solid #8F00FF;
+    margin-bottom: 26px;
+}
+
+.button {
+    border: 1px solid #8F00FF;
+    margin-bottom: 26px;
+}
+
+.past-games {
+    margin-left: 390px;
+    margin-right: 352px;
+    margin-bottom: 125px;
+}
+
+.past-games__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.past-games__list {
+    display: inline-block;
+    margin-bottom: 52px;
+}
+
+.past-games__item {
+    display: inline-block;
+    width: 586px;
+    vertical-align: top;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+ }
+
+.past-games__img {
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+.past-games__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 22px 28px;
+}
+
+.past-games__date {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+.past-games__content > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.past-games__content > p {
+    line-height: 21px;
+}
+
+.paginator {
+    text-align: center;
+}
+
+.paginator__display , .paginator__list , .paginator__item {
+    display: inline-block;
+}
+
+.paginator__link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background: transparent;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 32px;
+    transition: .4s;
+}
+
+.paginator__link:hover {
+    background: #8F00FF;
+}
+
+.about-us {
+    display: inline-block;  
+    margin-left: 311px;
+    margin-right: 352px;
+    margin-bottom: 71px;
+}
+
+.about-us__img {
+    display: inline-block;
+    width: 845px;
+    height: 563px;
+    vertical-align: top;
+    padding: 20px 279px 40px 80px;
+}
+
+.about-us__content {
+    display: inline-block;
+    width: 645px;
+    height: 455px;
+    margin-top: 117px;
+    margin-left: -415px;
+    padding: 69px 63px 84px 80px;
+    border-radius: 5px;
+    background: linear-gradient(71deg, #8F00FF 0%, #148CFF 100%), #212121;
+    margin-right: 0;
+}
+
+.about-us__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+.about-us__text {
+    line-height: 27px;
+    margin-bottom: 41px;
+}
+
+.about-us__content .button {
+    border: 1px solid #FFF;
+}
+
+.footer {    
+    height: 152px;
+    position: relative;
+    margin-left: 390px;
+    margin-right: 389px;
+}
+
+.footer-conteiner {
+    border-top: 1px solid rgba(fff .1);
+}
+
+.footer .menu {
+    top: 39px;
+    left: 439px;
+}
+
+.socials {
+    position: absolute;
+    top: 35px;
+    right: 267px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background: url("img/telegram.png"), lightgray 50% / cover no-repeat;    
+    border-radius: 50%;
+}
+
+.socials__item--icon--vk .socials__link {
+    background: url("img/vk.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%;  
+}
+
+.socials__item--icon--facebook .socials__link {
+    background: url("img/facebook.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%; 
+}
+
+.socials__item--icon--instagram .socials__link {
+    background: url("img/instagram.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%;  
+}
+
+.contacts__free-call {
+    position: absolute;
+    display: inline-block;
+    bottom: 16px;
+    right: 0;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+    margin-bottom: 10px;
+}
+
+.footer .contacts {
+    top: 45.64px;
+}
