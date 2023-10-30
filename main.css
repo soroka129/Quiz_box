@@ -2,32 +2,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 1920px;
-    height: 1018px;
-    margin: 0 auto;
-}
-
-.main-page-wrapper {
-    background: url("img/fon1.jfif") center top no-repeat, url("img/fon2.jfif") center bottom no-repeat;
-}
-
-.wrapper {
-    position: relative;
-    background: #17191C;
-    color: #fff;
-}
-
-body {
-    margin: 0;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.42;    
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 h1, h2, h3, h4, h5, p {
     margin: 0;
 }
@@ -50,6 +24,31 @@ address {
     font-style: normal;
 }
 
+.wrapper {
+   /* position: relative; */
+    background: #17191C;
+    color: #fff;
+}
+
+.main-page-wrapper {
+    /* background: url("img/fon1.jfif") center top no-repeat, url("img/fon2.jfif") center bottom no-repeat; */
+ }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.42;    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 button {
     background: transparent;
     padding: 0;
@@ -59,9 +58,9 @@ button {
 .header {
     position: relative;
     height: 80px;
-    margin-left: 390px;
-    margin-right: 389px;
-    margin-bottom: 132px;
+    /* margin-left: 390px;
+    margin-right: 389px; */
+    margin-bottom: 134px;
 }
 
 .logo {
@@ -84,7 +83,7 @@ button {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 38px;
+    top: 40px;
     font-size: 16px;
 }
 
@@ -109,7 +108,7 @@ button {
 
 .contacts {
     position: absolute;
-    top: 28.64px;
+    top: 30.64px;
     right: 0;
     font-style: normal;
 }
@@ -118,12 +117,12 @@ button {
     display: block;
     text-decoration: none;
     font-size: 26px;
-    margin-bottom: -9px;
+    margin-bottom: -7px;
 }
 
 .contacts__graf{
-    position: absolute;
-    right: 0;
+    display: block;
+    float: right;
     font-size: 13px;
     line-height: 20px;
     text-decoration-line: underline;
@@ -134,8 +133,8 @@ button {
     display: block;
     height: 273px;
     width: 637px;
-    margin-right: 893px;
-    margin-left: 392px;
+   /* margin-right: 893px;
+    margin-left: 392px; */
     margin-bottom: 288px;
 }
 
@@ -148,6 +147,7 @@ button {
 
 .preview__info {
     font-size: 21px;
+    margin-left: 4px;
     margin-bottom: 73px;
 }
 
@@ -171,8 +171,8 @@ button {
 }
 
 .new-in-the-week {
-    margin-left: 391px;
-    margin-right: 390px;
+   /* margin-left: 391px;
+    margin-right: 390px; */
     margin-bottom: 126px;
 }
 
@@ -262,11 +262,12 @@ button {
     margin-bottom: 23.5px;
 }
 
-.button--border {
+.new-in-the-week__subtitle .button--border {
     background: #fff;
     color: #8F00FF;
     border-radius: 5px;
     border: 1px solid #8F00FF;
+   /* min-width: 136px; */
     margin-bottom: 26px;
 }
 
@@ -276,8 +277,8 @@ button {
 }
 
 .past-games {
-    margin-left: 390px;
-    margin-right: 352px;
+   /* margin-left: 390px;
+    margin-right: 352px; */
     margin-bottom: 125px;
 }
 
@@ -288,17 +289,23 @@ button {
 }
 
 .past-games__list {
-    display: inline-block;
+   /* display: inline-block; */
     margin-bottom: 52px;
 }
 
 .past-games__item {
     display: inline-block;
-    width: 586px;
+    width: 556px;
+    height: 395px;
     vertical-align: top;
     position: relative;
     border-radius: 4px;
     overflow: hidden;
+    margin-right: 20px;
+ }
+
+ .past-games__item:last-child {
+    margin-right: 0;
  }
 
 .past-games__img {
@@ -318,7 +325,7 @@ button {
     display: inline-block;
     font-size: 14px;
     line-height: 21px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .past-games__content > h3 {
@@ -357,26 +364,26 @@ button {
 
 .about-us {
     display: inline-block;  
-    margin-left: 311px;
-    margin-right: 352px;
+   /* margin-left: 311px;
+    margin-right: 352px; */
     margin-bottom: 71px;
 }
 
 .about-us__img {
     display: inline-block;
-    width: 845px;
+    width: 488px;
     height: 563px;
     vertical-align: top;
-    padding: 20px 279px 40px 80px;
+    padding: 20px 0px 40px 0px;
 }
 
 .about-us__content {
     display: inline-block;
-    width: 645px;
+    width: 785px;
     height: 455px;
     margin-top: 117px;
-    margin-left: -415px;
-    padding: 69px 63px 84px 80px;
+    margin-left: -139px;
+    padding: 69px 203px 84px 80px;
     border-radius: 5px;
     background: linear-gradient(71deg, #8F00FF 0%, #148CFF 100%), #212121;
     margin-right: 0;
@@ -390,7 +397,7 @@ button {
 
 .about-us__text {
     line-height: 27px;
-    margin-bottom: 41px;
+    margin-bottom: 42px;
 }
 
 .about-us__content .button {
@@ -400,8 +407,8 @@ button {
 .footer {    
     height: 152px;
     position: relative;
-    margin-left: 390px;
-    margin-right: 389px;
+   /* margin-left: 390px;
+    margin-right: 389px; */
 }
 
 .footer-conteiner {
@@ -465,9 +472,9 @@ button {
     font-size: 11px;
     line-height: 20px;
     color: #9A9A9A;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 .footer .contacts {
-    top: 45.64px;
+    top: 47.64px;
 }
