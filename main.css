@@ -25,7 +25,6 @@ address {
 }
 
 .wrapper {
-   /* position: relative; */
     background: #17191C;
     color: #fff;
 }
@@ -58,8 +57,6 @@ button {
 .header {
     position: relative;
     height: 80px;
-    /* margin-left: 390px;
-    margin-right: 389px; */
     margin-bottom: 134px;
 }
 
@@ -111,6 +108,7 @@ button {
     top: 30.64px;
     right: 0;
     font-style: normal;
+    text-align: right;
 }
 
 .contacts__tel {
@@ -122,20 +120,14 @@ button {
 
 .contacts__graf{
     display: block;
-    float: right;
     font-size: 13px;
     line-height: 20px;
     text-decoration-line: underline;
 }
 
 .preview {
-    position: relative;
-    display: block;
-    height: 273px;
     width: 637px;
-   /* margin-right: 893px;
-    margin-left: 392px; */
-    margin-bottom: 288px;
+    margin-bottom: 190px;
 }
 
 .preview__title {
@@ -171,9 +163,7 @@ button {
 }
 
 .new-in-the-week {
-   /* margin-left: 391px;
-    margin-right: 390px; */
-    margin-bottom: 126px;
+    margin-bottom: 120px;
 }
 
 .new-in-the-week__title {
@@ -192,7 +182,6 @@ button {
     display: inline-block;
     height: 42px;
     width: 42px;
-    visibility: hidden;
 }
 
 .new-in-the-week__list {
@@ -202,9 +191,10 @@ button {
 .new-in-the-week__item {
     display: inline-block;
     width: 358px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 5px;
     background: #FFF;
     margin-right: 27px;
+    overflow: hidden;
 }
 
 .new-in-the-week__item:last-child {
@@ -212,14 +202,13 @@ button {
 }
 
 .new-in-the-week__image {
-    width: 362px;
-    height: 144px;
-    border-radius: 5px 5px 0px 0px;
-    margin-bottom: 26px;
+    width: 100%;
+    height: 143px;
+    margin-bottom: 5px;
 }
 
 .new-in-the-week__content {
-    margin-left: 21px;
+    padding: 22px 16px 26px 23px;
 }
 
 .new-in-the-week__subtitle {
@@ -230,7 +219,7 @@ button {
 }
 
 .new-in-the-week__options {
-    margin-bottom: 19.5px;
+    margin-bottom:25.5px;
 }
 
 .new-in-the-week__options-item{
@@ -248,11 +237,11 @@ button {
     width: 26px;
     height: 26px;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .new-in-the-week__options-text{ 
     color: #666;
-    visibility: hidden;;
 }
 
 .new-in-the-week__text {
@@ -267,19 +256,15 @@ button {
     color: #8F00FF;
     border-radius: 5px;
     border: 1px solid #8F00FF;
-   /* min-width: 136px; */
     margin-bottom: 26px;
 }
 
 .button {
     border: 1px solid #8F00FF;
-    margin-bottom: 26px;
 }
 
 .past-games {
-   /* margin-left: 390px;
-    margin-right: 352px; */
-    margin-bottom: 125px;
+    margin-bottom: 144px;
 }
 
 .past-games__title {
@@ -289,7 +274,6 @@ button {
 }
 
 .past-games__list {
-   /* display: inline-block; */
     margin-bottom: 52px;
 }
 
@@ -364,24 +348,21 @@ button {
 
 .about-us {
     display: inline-block;  
-   /* margin-left: 311px;
-    margin-right: 352px; */
     margin-bottom: 71px;
 }
 
 .about-us__img {
     display: inline-block;
     width: 488px;
-    height: 563px;
+    height: 506px;
     vertical-align: top;
-    padding: 20px 0px 40px 0px;
 }
 
 .about-us__content {
     display: inline-block;
     width: 785px;
     height: 455px;
-    margin-top: 117px;
+    margin-top: 97px;
     margin-left: -139px;
     padding: 69px 203px 84px 80px;
     border-radius: 5px;
@@ -407,8 +388,6 @@ button {
 .footer {    
     height: 152px;
     position: relative;
-   /* margin-left: 390px;
-    margin-right: 389px; */
 }
 
 .footer-conteiner {
