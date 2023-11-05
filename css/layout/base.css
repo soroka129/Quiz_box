@@ -31,7 +31,7 @@ body {
 }
 
 .main-page-wrapper {
-    background: url("/img/background1.png") center top no-repeat, url("/img/background2.png") center bottom no-repeat, #17191C;
+    background: url("../../img/background1.png") center top no-repeat, url("../../img/background2.png") center bottom no-repeat, #17191C;
 }
 
 .container {

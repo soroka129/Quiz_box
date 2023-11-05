@@ -4,7 +4,7 @@
 }
 
 .about-us__img {
-    background: linear-gradient(0deg, rgba(90, 90, 90, 0.30) 0%, rgba(90, 90, 90, 0.30) 100%), url("/img/kviz_pliz.jfif"), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(90, 90, 90, 0.30) 0%, rgba(90, 90, 90, 0.30) 100%), url("../../img/kviz_pliz.jfif"), lightgray 50% / cover no-repeat;
     /*display: inline-block;*/
     width: 488px;
     height: 506px;

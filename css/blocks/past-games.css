@@ -30,13 +30,13 @@
     width: 556px;
     height: 395px;
     flex-shrink: 0;
-    background: linear-gradient(0deg, rgba(90, 90, 90, 0.30) 0%, rgba(90, 90, 90, 0.30) 100%), url(/img/kto-gde-quiz.jfif), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(90, 90, 90, 0.30) 0%, rgba(90, 90, 90, 0.30) 100%), url("../../img/kto-gde-quiz.jfif"), lightgray 50% / cover no-repeat;
     /*background: url("/img/kto-gde-quiz.jfif") ;*/
     /*opacity: 0.3;*/
  }
 
  .past-games__item-img2 {
-    background: linear-gradient(0deg, rgba(90, 90, 90, 0.40) 0%, rgba(90, 90, 90, 0.40) 100%), url("/img/team.jfif"), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(90, 90, 90, 0.40) 0%, rgba(90, 90, 90, 0.40) 100%), url("../..//img/team.jfif"), lightgray 50% / cover no-repeat;
     /*background: url("/img/team.jfif");
     opacity: 0.3;*/
  }

@@ -5,7 +5,7 @@
   padding-top: 25px;
   padding-bottom: 19px;
   /*background: #17191C;*/
-  background: #17191c url('/img/background1.png') right top no-repeat;
+  background: #17191c url('../../img/background1.png') right top no-repeat;
 }
 
 .top-line__container {

@@ -57,42 +57,42 @@
 }
 
 .socials__item--icon--telegram .socials__link {
-    background: url("/img/telegram.png"), lightgray 50% / cover no-repeat;
+    background: url("../../img/telegram.png"), lightgray 50% / cover no-repeat;
     border-radius: 50%;
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-    background: url("/img/telegram.png"), rgb(31, 30, 30) 75% / cover no-repeat;    
+    background: url("../../img/telegram.png"), rgb(31, 30, 30) 75% / cover no-repeat;    
     border-radius: 50%;
 }
 
 .socials__item--icon--vk .socials__link {
-    background: url("/img/vk.png"), lightgray 50% / cover no-repeat;
+    background: url("../../img/vk.png"), lightgray 50% / cover no-repeat;
     border-radius: 50%;
 }
 
 .socials__item--icon--vk .socials__link:hover {
-    background: url("/img/vk.png"), rgb(31, 30, 30) 50% / cover no-repeat;
+    background: url("../../img/vk.png"), rgb(31, 30, 30) 50% / cover no-repeat;
     border-radius: 50%;
 }
 
 .socials__item--icon--facebook .socials__link {
-    background: url("/img/facebook.png"), lightgray 50% / cover no-repeat;
+    background: url("../../img/facebook.png"), lightgray 50% / cover no-repeat;
     border-radius: 50%; 
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-    background: url("/img/facebook.png"), rgb(31, 30, 30) 50% / cover no-repeat;
+    background: url("../../img/facebook.png"), rgb(31, 30, 30) 50% / cover no-repeat;
     border-radius: 50%; 
 }
 
 .socials__item--icon--instagram .socials__link {
-    background: url("/img/instagram.png"), lightgray 50% / cover no-repeat;
+    background: url("../../img/instagram.png"), lightgray 50% / cover no-repeat;
     border-radius: 50%;  
 }
 
 .socials__item--icon--instagram .socials__link:hover {
-    background: url("/img/instagram.png"), rgb(31, 30, 30) 50% / cover no-repeat;
+    background: url("../../img/instagram.png"), rgb(31, 30, 30) 50% / cover no-repeat;
     border-radius: 50%;
 }
 
