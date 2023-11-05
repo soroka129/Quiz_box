@@ -1,0 +1,12 @@
+.logo {
+    flex-shrink: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.logo__link {
+    background: linear-gradient(88deg, #8F00FF -2.44%, #00A3FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

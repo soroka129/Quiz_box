@@ -1,0 +1,37 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paginator__display {
+    margin-right: 30px;
+}
+
+.paginator__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paginator__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paginator__link {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: transparent;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 32px;
+    transition: .4s;
+}
+
+.paginator__link:hover {
+    background: #8F00FF;
+}

@@ -1,0 +1,25 @@
+.preview {
+    width: 53%;
+    margin-bottom: 190px;
+}
+
+.preview__container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 370px;
+}
+
+.preview__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    margin-bottom: 22px;
+}
+
+.preview__info {
+    font-size: 21px;
+    margin-left: 4px;
+    margin-bottom: 73px;
+}

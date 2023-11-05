@@ -1,0 +1,41 @@
+.about-us {
+    display: flex;  
+    margin-bottom: 96px;
+}
+
+.about-us__img {
+    background: linear-gradient(0deg, rgba(90, 90, 90, 0.30) 0%, rgba(90, 90, 90, 0.30) 100%), url("/img/kviz_pliz.jfif"), lightgray 50% / cover no-repeat;
+    /*display: inline-block;*/
+    width: 488px;
+    height: 506px;
+    /*vertical-align: top;*/
+}
+
+.about-us__content {
+    display: flex;
+    flex-direction: column;
+    /*display: inline-block;*/
+    width: 785px;
+    height: 455px;
+    margin-top: 97px;
+    margin-left: -139px;
+    padding: 69px 203px 84px 80px;
+    border-radius: 5px;
+    background: linear-gradient(71deg, #8F00FF 0%, #148CFF 100%), #212121;
+    margin-right: 0;
+}
+
+.about-us__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+.about-us__text {
+    line-height: 27px;
+    margin-bottom: 42px;
+}
+
+.about-us__content .button {
+    border: 1px solid #FFF;
+}

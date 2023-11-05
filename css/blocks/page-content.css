@@ -1,0 +1,81 @@
+.page-container {
+  background:#fff ;
+  color: #303030;
+  padding: 40px 0;
+}
+
+.games-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 58px;
+}
+
+.gemas-list__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 58px 0 0 0;
+}
+
+.games-list__img {
+  height: 333px;
+  width: 40%;
+  margin-right: 5%;
+}
+
+.games__img-element {
+  border-radius: 5px;
+  height: 100%; 
+}
+
+.games-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.games-heading__title {
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 10px;
+  /*margin-bottom: 30px;*/
+  color: #000;
+}
+
+.games-content > p {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.games__desc {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.games__buttom {
+  width: 168px;
+  margin-bottom: 17px;
+}
+
+.button--border {
+  background: #fff;
+  color: #8F00FF;
+  border-radius: 5px;
+  border: 1px solid #8F00FF;
+  margin-top: auto;
+}
+
+.paginator-dark-theme, .paginator__link-dark-theme {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 22px;
+}
+ .paginator__link-dark-theme:hover {
+  color: #fff;
+ }

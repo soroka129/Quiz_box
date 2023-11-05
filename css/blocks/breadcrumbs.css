@@ -1,0 +1,40 @@
+.breadcrumbs {
+    margin-bottom: 20px;
+}
+
+.breadcrumbs-list {
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item::after {
+    content: '/';
+    display: inline-block;
+    opacity: .8;
+    color: #9A9A9A;;
+}
+
+.breadcrumbs__item:last-child::after{
+    display: none;
+}
+
+.breadcrumbs__item-link {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item-link-active {
+    color: #221f1f;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.breadcrumbs__item-link-green {
+    color: green;
+}

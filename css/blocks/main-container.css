@@ -1,0 +1,66 @@
+.page-container {
+  background: #fff;
+  color: 303030;
+  padding: 42px 0;
+}
+
+.games {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+}
+
+.gemas__item {
+  display: flex;
+  padding: 58px 0px 0px 20px;
+}
+
+.gemas__item:hover {
+  background: #f4f5f5;
+}
+
+.games__img {
+  border-radius: 5px 5px 0px 0px;
+  width: 40%;
+  margin-right: 5%;
+}
+
+.games__content {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+
+.games__title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.games__desc {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.games__buttom {
+  width: 168px;
+}
+
+.button--border {
+  background: #fff;
+  color: #8F00FF;
+  border-radius: 5px;
+  border: 1px solid #8F00FF;
+  margin-top: auto;
+}
+
+.paginator-dark-theme, .paginator__link-dark-theme {
+  color: #000;
+}
+ .paginator__link-dark-theme:hover {
+  color: #fff;
+ }

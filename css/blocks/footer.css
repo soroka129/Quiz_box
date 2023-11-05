@@ -1,0 +1,118 @@
+.footer {
+    background: #17191C;
+    /*height: 152px;*/
+    /*position: relative;*/
+}
+
+.footer-conteiner {
+    border-top: 1px solid rgba(fff .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+/*.footer-column-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column-right {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+/*.footer .menu {
+    top: 39px;
+    left: 439px;
+}*/
+
+/*.socials {
+    position: absolute;
+    top: 35px;
+    right: 267px;
+}*/
+
+.socials__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials__item {
+    /*display: inline-block;
+    vertical-align: middle;*/
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background: url("/img/telegram.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+    background: url("/img/telegram.png"), rgb(31, 30, 30) 75% / cover no-repeat;    
+    border-radius: 50%;
+}
+
+.socials__item--icon--vk .socials__link {
+    background: url("/img/vk.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background: url("/img/vk.png"), rgb(31, 30, 30) 50% / cover no-repeat;
+    border-radius: 50%;
+}
+
+.socials__item--icon--facebook .socials__link {
+    background: url("/img/facebook.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%; 
+}
+
+.socials__item--icon--facebook .socials__link:hover {
+    background: url("/img/facebook.png"), rgb(31, 30, 30) 50% / cover no-repeat;
+    border-radius: 50%; 
+}
+
+.socials__item--icon--instagram .socials__link {
+    background: url("/img/instagram.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%;  
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+    background: url("/img/instagram.png"), rgb(31, 30, 30) 50% / cover no-repeat;
+    border-radius: 50%;
+}
+
+.contacts__free-call {
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    bottom: 16px;
+    /*right: 0;*/
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+    /*margin-bottom: 13px;*/
+}
+
+.footer .contacts {
+    display: flex;
+    align-items: flex-end;
+    /*top: 47.64px;*/
+}
+
+.footer-games {
+    padding-top: 46px;
+}

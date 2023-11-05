@@ -1,0 +1,28 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /*top: 30.64px;
+    right: 0;*/
+    font-style: normal;
+    /*text-align: right;*/
+}
+
+.contacts__tel {
+    /*display: block;*/
+    text-decoration: none;
+    font-size: 26px;
+    /*margin-bottom: -7px;*/
+}
+
+.contacts__graf{
+    /*display: block;*/
+    color: #98A4A8;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.contacts__graf:hover {
+    color: #FFF;
+}
