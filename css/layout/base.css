@@ -18,8 +18,8 @@ body {
     /*overflow: hidden;*/
     min-width: 1140px;
     min-height: 100%;
-    width: 1140px;
-    margin: 0 auto;
+    /*width: 1140px;
+    margin: 0 auto;*/
     display: flex;
     flex-direction: column;
     /*background: url("/img/background1.png") center top no-repeat, url("/img/background2.png") center bottom no-repeat, #17191C;

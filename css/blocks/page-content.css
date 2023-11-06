@@ -32,12 +32,13 @@
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  padding-top: 10px;
 }
 
 .games-heading__title {
   font-size: 36px;
   font-weight: 700;
-  padding-top: 10px;
+  
   /*margin-bottom: 30px;*/
   color: #000;
 }
@@ -74,7 +75,7 @@
   justify-content: center;
   font-weight: 700;
   color: #000;
-  margin-bottom: 22px;
+  /*margin-bottom: 22px;*/
 }
  .paginator__link-dark-theme:hover {
   color: #fff;
