@@ -1,0 +1,58 @@
+.wrapper-welcome {
+  /*background: url("../../img/background1.png") center center no-repeat, #17191C;*/
+  display: flex;
+}
+
+.container-welcome {
+  min-width: 1140px;
+  min-height: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-bottom: 200px;
+  row-gap: 30px;
+  background: url("../../img/background1.png") center top -66px no-repeat, #17191C;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  animation: myAnimation 0.75s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.logo-welcome {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-welcome {
+  width: 168px;
+  height: 55px;
+  flex-shrink: 0;
+}
+
+@keyframes myAnimation {
+  0% {
+      transform: translateY(0);
+  }
+
+  25% {
+      transform: translateY(40px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(40px);
+}
+}

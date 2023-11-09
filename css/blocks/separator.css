@@ -1,0 +1,28 @@
+.separator {
+    background: #17191C;
+
+}
+
+.separator-content {
+    display: flex;
+    width: 1140px;
+    height: 363px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.separator-title {
+    width: 383px;
+    display: flex;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.separator-img {
+    width: 630px;
+    height: auto;
+    display: flex;
+    background: url("../../img/oxx.png"), no-repeat;
+}

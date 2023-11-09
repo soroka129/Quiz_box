@@ -1,0 +1,119 @@
+.reviews {
+    background: #fff;
+    padding-bottom: 85px;
+}
+
+.reviews__content {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 110px;
+    flex-direction: column;
+}
+
+.reviews__list {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1270px;
+    row-gap: 17px;
+    column-gap: 22px;
+    margin-bottom: 167px;
+}
+
+.rewiews__item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #F4F5F5;
+    width: 557px;
+    min-height: 542px;
+    padding: 45px 34px 36.5px 31.5px;
+    
+}
+/*
+.rewiews__item-img {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.reviews-top-line{
+    display: inline-flex;
+}
+
+.rewiews__img-element {
+    width: 142px;
+    height: 142px;
+    flex-shrink: 0;
+    margin-right: 22px;
+}
+
+.rewiews__item-user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.user-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.uservk {
+    display: inline-block;
+    color: #2E77A4;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    text-decoration-line: underline;
+    margin-right: 10px;
+}
+
+.reviews-title-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.ellipse {
+    
+    background: #B9EAE4;
+    width: fit-content;
+    height: 37px;
+    color: #303030;
+    font-size: 13px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    
+}
+
+.reviews-user-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding-top: 27px;
+}
+
+.reviews-user-heading__title {
+    color: #1A1B1E;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.reviews__desc {
+    color: #818181;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.reviews__date {
+    color: #1A1B1E;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+}

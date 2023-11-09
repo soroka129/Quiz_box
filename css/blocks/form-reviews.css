@@ -1,0 +1,109 @@
+.form-reviews {
+    background: #F4F5F5;
+    padding-top: 62px;
+    padding-bottom: 90px;
+}
+
+.form-reviews-wrapper {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.form-reviews-title {
+    color: #1A1B1E;
+    text-align: start;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.form-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 557px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #8F00FF;
+    background: #FFF;
+    color: #1A1B1E;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-bottom: 27px;
+}
+
+.input:focus {
+    border: 1px solid  #8F00FF;
+}
+
+.input-textarea {
+    width: 1142px;
+    height: 235px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: 1px solid  #8F00FF;
+    color: #666;
+    font-size: 18px;
+    resize: none;
+    margin-bottom: 33px;
+    padding-left: 30px;
+    text-align: start;
+}
+
+.down-line {
+    display: flex;
+}
+
+.question {
+    display: flex;
+    width: 570px;
+    color: #1A1B1E;
+    font-size: 18px;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.ellipse-answer {
+    background: #E7E7E7;
+    width: fit-content;
+    height: 37px;
+    color: #1A1B1E;
+    font-size: 13px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+
+.ellipse-answer:hover {
+    background: #B9EAE4;;
+}
+
+.bottoms-line {
+    display: flex;
+    justify-content: end;
+}
+
+.bottom-clear {
+    border: #2B2B2B;
+    background: #2B2B2B;
+    margin-right: 15px;
+}
+
+.bottom-clear:hover {
+    border: #8E8E8E;
+    background: #8E8E8E;
+}
