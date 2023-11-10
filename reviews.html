@@ -36,7 +36,10 @@
             <div class="dropdown">
               <span class="contacts__graf">График работы</span>
               <div class="dropdown-icon">
-                <span class="contacts__work-time"><b>пн-вс 09:00-20:00</b><br>Обед: 14:00-14:30</span>
+                <div class="triangle"></div>
+                <div class="contacts__work-time">
+                  <p><b>пн-вс 09:00-20:00</b><br>Обед: 14:00-14:30</p>
+                </div>
               </div>
             </div>
           </address>
@@ -220,29 +223,69 @@
     <section class="form-reviews">
       <div class="form-reviews-wrapper">
         <h2 class="form-reviews-title">Оставьте отзыв</h2>
-        <div class="form-line">
-          <input type="text" name="" class="input" id="" placeholder="Имя Отчество">
-          <input type="text" name="" class="input" id="" placeholder="Ссылка на профиль VK">
-        </div>
-        <input type="textarea" name="" class="input-textarea" id="" placeholder="Напишите свой честный отзыв ;)">
+        <form action="" class="form">
+          <div class="form-row">
+            <input type="text" name="" class="input" id="" placeholder="Имя Отчество">
+            <input type="text" name="" class="input" id="" placeholder="Ссылка на профиль VK">
+          </div>
+          <div class="form-row">
+            <input type="textarea" name="" class="input-textarea" id="" placeholder="Напишите свой честный отзыв ;)">
+          </div>
+        </form>
         <div class="down-line">
           <div class="question">Какими услугами компании пользуетесь?</div>
-          <div class="answers">
-            <div class="ellipse-answer">IT-викторина</div>
-            <div class="ellipse-answer">Весенняя игра</div>
-            <div class="ellipse-answer">Кино и музыка</div>
-            <div class="ellipse-answer">Гарри Поттер</div>
-            <div class="ellipse-answer">Назад в 90-е</div>
-            <div class="ellipse-answer">Никакими</div>
-            <div class="ellipse-answer">Другое</div>
-          </div>
+          <ul class="answers">
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">IT-викторина</div>
+              </label>
+            </li>
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">Весенняя игра</div>
+              </label>
+            </li>
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">Кино и музыка</div>
+              </label>
+            </li>
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">Гарри Поттер</div>
+              </label>
+            </li>
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">Назад в 90-е</div>
+              </label>
+            </li>
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">Никакими</div>
+              </label>
+            </li>
+            <li class="controls-item">
+              <label class="controls-elem">
+                <input type="checkbox" class="controls-checkbox">
+                <div class="ellipse-answer controls-ellipse-answer">Другое</div>
+              </label>
+            </li>
+          </ul>
         </div>
+
         <div class="bottoms-line">
           <div class="form__buttom">
-            <button class="button bottom-clear">очистить</button>
+            <button type="reset" class="button bottom-clear">очистить</button>
           </div>
           <div class="form__buttom">
-            <button class="button">отправить</button>
+            <button type="submit" class="button">отправить</button>
           </div>
         </div>
       </div>

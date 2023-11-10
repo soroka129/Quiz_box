@@ -12,16 +12,17 @@
 }
 
 .reviews__list {
+    column-count: 2;
+    column-gap: 22px;
     display: flex;
     flex-flow: column wrap;
     max-height: 1270px;
     row-gap: 17px;
-    column-gap: 22px;
-    margin-bottom: 167px;
+    margin-bottom: 90px;
 }
 
 .rewiews__item {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     border-radius: 5px;
     background: #F4F5F5;
@@ -109,6 +110,7 @@
     color: #818181;
     font-size: 16px;
     line-height: 27px;
+    margin-bottom: 48px;
 }
 
 .reviews__date {
