@@ -2,57 +2,44 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /*top: 30.64px;
-    right: 0;*/
     font-style: normal;
-    /*text-align: right;*/
+    margin-top: 7px;
 }
 
 .contacts__tel {
-    /*display: block;*/
     text-decoration: none;
     font-size: 26px;
-    /*margin-bottom: -7px;*/
 }
 
 .dropdown {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: end;
-    padding-top: 10px;
+    margin-top: -8px;
+    position: relative;
 }
 
 .dropdown-icon {
-    position: absolute;
+    position:absolute;
     display: block;
-    top: 100px;
+    top: 100%;
     right: -9999px;
-    /*opacity: 0;
-    transition: opacity .8s;*/
-
-}
-
-.dropdown:hover .dropdown-icon {
-    display: flex;
-    right: 135px;
-}
-
-.dropdown:hover .contacts__graf {
-    color: #FFF;
-
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity .8s;
 }
 
 .dropdown-icon::after {
     content: "";
     display: block;
-    height: 20px;
+    height: 22px;
     left: 0;
     right: 0;
-    bottom: 77px;
+    bottom: 75px;
     position: absolute;
 }
 
-.contacts__graf{
+.contacts__graf {
     display: block;
     color: #98A4A8;
     font-size: 13px;
@@ -60,8 +47,13 @@
     text-decoration-line: underline;
 }
 
-.contacts__graf:hover {
+.dropdown:hover .contacts__graf {
     color: #FFF;
+}
+
+.dropdown:hover .dropdown-icon {
+    right: 0px;
+    opacity: 1;
 }
 
 .contacts__work-time {
