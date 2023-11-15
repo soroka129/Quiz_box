@@ -1,12 +1,14 @@
 .wrapper-welcome {
   background: url("../../img/background1.png") center top -66px no-repeat, #17191C;
-  display: flex;
+  /*display: flex;*/
   background-size: cover;
+  height: 100%;
 }
 
 .container-welcome {
   min-width: 1140px;
-  min-height: 960px;
+  /*height: 960px;*/
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -30,22 +30,6 @@ body {
     background: url("../../img/background1.png") center top no-repeat, url("../../img/background2.png") center bottom no-repeat, #17191C;
 }
 
-/*.wrapper-welcome {
-    /*background: url("../../img/background1.png") center center no-repeat, #17191C;*/
-/*   display: flex;
-}*/
-/*
-.container-welcome {
-    min-width: 1140px;
-    min-height: 960px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    background: url("../../img/background1.png") center top -66px no-repeat, #17191C;
-}*/
-
 .container {
     width: 1140px;
     margin: 0 auto;
