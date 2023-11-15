@@ -22,6 +22,7 @@
 .form__row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 27px;
 }
 
 .form__row-input {
@@ -35,7 +36,7 @@
     font-size: 18px;
     font-weight: 400;
     padding: 20px 30px;
-    margin-bottom: 27px;
+    
 }
 
 .form__row-input:focus {
@@ -78,6 +79,11 @@
     padding-left: 15px;
 }
 
+.form-reviews__controls-item {
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+
 .form-reviews__ellipse-answer {
     background: #E7E7E7;
     width: fit-content;
@@ -88,8 +94,7 @@
     display: flex;
     align-items: center;
     padding: 0px 15px;
-    margin-left: 17px;
-    margin-bottom: 15px;
+
 }
 
 .ellipse-answer:hover {
@@ -98,6 +103,7 @@
 
 .form-reviews__controls-elem {
     cursor: pointer;
+
 }
 
 .form-reviews__controls-checkbox:checked ~ .form-reviews__controls-ellipse-answer {

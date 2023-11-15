@@ -29,6 +29,17 @@
     transition: opacity .8s;
 }
 
+.dropdown-icon::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    border: 12px solid transparent;
+    border-bottom-color: #EDEDED;
+    top: -22px;
+    left: 95px;
+
+}
+
 .dropdown-icon::after {
     content: "";
     display: block;
@@ -69,7 +80,7 @@
     text-align: center;
     padding-top: 18px;
 }
-
+/*
 .triangle {
     display: inline-block;
     position: absolute;
@@ -79,7 +90,7 @@
     top: -22px;
     left: 95px;
 }
-
+*/
 .contacts__work-time > b {
     font-weight: 700;
 }

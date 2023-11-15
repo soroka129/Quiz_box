@@ -1,6 +1,7 @@
 .wrapper-welcome {
   background: url("../../img/background1.png") center top -66px no-repeat, #17191C;
   display: flex;
+  background-size: cover;
 }
 
 .container-welcome {
