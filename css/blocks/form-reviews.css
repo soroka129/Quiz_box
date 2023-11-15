@@ -4,14 +4,14 @@
     padding-bottom: 90px;
 }
 
-.form-reviews-wrapper {
+.form-reviews__wrapper {
     display: flex;
     width: 1140px;
     margin: 0 auto;
     flex-direction: column;
 }
 
-.form-reviews-title {
+.form-reviews__title {
     color: #1A1B1E;
     text-align: start;
     font-size: 48px;
@@ -19,12 +19,12 @@
     margin-bottom: 55px;
 }
 
-.form-row {
+.form__row {
     display: flex;
     justify-content: space-between;
 }
 
-.input {
+.form__row-input {
     width: 557px;
     height: 65px;
     flex-shrink: 0;
@@ -38,11 +38,11 @@
     margin-bottom: 27px;
 }
 
-.input:focus {
+.form__row-input:focus {
     border-color: #8F00FF;
 }
 
-.input-textarea {
+.form__row-input-textarea {
     width: 1142px;
     height: 235px;
     /*flex-shrink: 0;*/
@@ -57,28 +57,28 @@
     text-align: start;
 }
 
-.input-textarea:focus {
+.form__row-input-textarea:focus {
     border-color: #8F00FF;
 }
 
-.down-line {
+.form-reviews__down-line {
     display: flex;
 }
 
-.question {
+.form-reviews__down-line-question {
     display: flex;
     width: 50%;
     color: #1A1B1E;
     font-size: 18px;
 }
 
-.answers {
+.form-reviews__down-line-answers {
     display: flex;
     flex-wrap: wrap;
     padding-left: 15px;
 }
 
-.ellipse-answer {
+.form-reviews__ellipse-answer {
     background: #E7E7E7;
     width: fit-content;
     height: 37px;
@@ -96,30 +96,30 @@
     background: #B9EAE4;
 }
 
-.controls-elem {
+.form-reviews__controls-elem {
     cursor: pointer;
 }
 
-.controls-checkbox:checked ~ .controls-ellipse-answer {
+.form-reviews__controls-checkbox:checked ~ .form-reviews__controls-ellipse-answer {
     background: #B9EAE4;
 }
 
-.controls-checkbox {
+.form-reviews__controls-checkbox {
     display: none;
 }
 
-.bottoms-line {
+.form-reviews__bottoms-line {
     display: flex;
     justify-content: end;
 }
 
-.bottom-clear {
+.form-reviews__bottom-clear {
     border: #2B2B2B;
     background: #2B2B2B;
     margin-right: 15px;
 }
 
-.bottom-clear:hover {
+.form-reviews__bottom-clear:hover {
     border: #8E8E8E;
     background: #8E8E8E;
 }

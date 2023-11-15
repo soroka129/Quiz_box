@@ -1,5 +1,5 @@
 .wrapper-welcome {
-  /*background: url("../../img/background1.png") center center no-repeat, #17191C;*/
+  background: url("../../img/background1.png") center top -66px no-repeat, #17191C;
   display: flex;
 }
 
@@ -13,7 +13,6 @@
   flex-wrap: nowrap;
   padding-bottom: 200px;
   row-gap: 30px;
-  background: url("../../img/background1.png") center top -66px no-repeat, #17191C;
 }
 
 .animation {
